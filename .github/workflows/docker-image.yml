@@ -12,4 +12,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the python
-      run: docker build -f ./Dockerfile jarvisdesktopvoiceassistantmain
+      run: docker build -f ./Dockerfile jarvisdesktopvoiceassistantmain .
