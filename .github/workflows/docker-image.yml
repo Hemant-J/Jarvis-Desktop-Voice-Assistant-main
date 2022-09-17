@@ -22,7 +22,7 @@ jobs:
       run: docker build -f Dockerfile -t jarvisdesktopvoiceassistantmain .
       
     - name: docker push
-      run: docker push jarvisdesktopvoiceassistantmain .
+      run: docker push jarvisdesktopvoiceassistantmain
       
       
       
