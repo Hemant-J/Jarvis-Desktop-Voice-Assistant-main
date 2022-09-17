@@ -1,5 +1,5 @@
 Pyttsx3
-Speech Rrecognition
+Speech_recognition
 Wikipedia
 Webbrowser
 Pyautogui
