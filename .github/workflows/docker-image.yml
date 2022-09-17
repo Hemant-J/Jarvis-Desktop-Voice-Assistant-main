@@ -22,7 +22,7 @@ jobs:
       run: docker build -f Dockerfile -t jarvisdesktopvoiceassistantmain .
       
     - name: docker push
-      run: docker push {{thelazycompany}}/{{jarvisdesktopvoiceassistantmain}}:{{3.4}}
+      run: docker push thelazycompany/jarvisdesktopvoiceassistantmain:3.4
       
       
       
