@@ -27,7 +27,7 @@
 This is a dockerized application having a full pipeline (made using gitAction).
 - Pull command for docker :
    ```docker pull thelazycompany/jarvisdesktopvoiceassistantmain:jarvisdesktopvoiceassistantmain```
-- Docker run command 
+- Docker run command :
    ```docker run -it thelazycompany/jarvisdesktopvoiceassistantmain:jarvisdesktopvoiceassistantmain```
 
 ## License
