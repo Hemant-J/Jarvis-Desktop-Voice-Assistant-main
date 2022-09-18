@@ -5,7 +5,6 @@ import wikipedia
 import webbrowser as wb
 import os
 import random
-import pyautogui
 
 engine = pyttsx3.init()
 
