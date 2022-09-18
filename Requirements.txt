@@ -2,7 +2,6 @@ Pyttsx3
 SpeechRecognition
 Wikipedia
 Pyautogui
-pywin32
 datetime
 webbrowser
 os
