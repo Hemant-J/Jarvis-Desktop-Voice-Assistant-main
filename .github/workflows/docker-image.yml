@@ -21,11 +21,11 @@ jobs:
     - name: Build the python
       run: docker build -f Dockerfile -t jarvisdesktopvoiceassistantmain .
       
-#     - name: get images 
-#       run: docker images
+    - name: get images 
+      run: docker images
       
     - name: docker push
-      run: docker push jarvisdesktopvoiceassistantmain:latest .
+      run: docker push jarvisdesktopvoiceassistantmain:latest
       
       
       
