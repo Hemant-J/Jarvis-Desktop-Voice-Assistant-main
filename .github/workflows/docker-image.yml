@@ -25,7 +25,7 @@ jobs:
 #       run: docker build -t jarvisdesktopvoiceassistantmain1 .
       
     - name: Build the tag
-      run: docker tag thelazycompany/jarvisdesktopvoiceassistantmain 
+      run: docker tag thelazycompany jarvisdesktopvoiceassistantmain 
       
     - name: get images 
       run: docker images
