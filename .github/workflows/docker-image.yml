@@ -18,8 +18,14 @@ jobs:
         DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
       run: docker login -u $DOCKER_USER -p $DOCKER_PASSWORD 
     
+#     - name: Build the python
+#       run: docker build -f Dockerfile -t jarvisdesktopvoiceassistantmain .
+
     - name: Build the python
-      run: docker build -f Dockerfile -t jarvisdesktopvoiceassistantmain .
+      run: docker build -t jarvisdesktopvoiceassistantmain .
+      
+    - name: Build the tag
+      run: docker tag thelazycompany/jarvisdesktopvoiceassistantmain 
       
     - name: get images 
       run: docker images
