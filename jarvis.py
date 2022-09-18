@@ -1,5 +1,4 @@
 import pyttsx3
-import pywin32_system32
 import datetime
 import speech_recognition as sr
 import wikipedia
