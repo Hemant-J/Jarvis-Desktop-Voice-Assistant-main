@@ -3,6 +3,3 @@ SpeechRecognition
 Wikipedia
 Pyautogui
 datetime
-webbrowser
-os
-random
