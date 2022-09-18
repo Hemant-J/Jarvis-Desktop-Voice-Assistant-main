@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   jarvisdesktopvoiceassistantmain:
-    image: jarvisdesktopvoiceassistantmain
+    image: jarvisdesktopvoiceassistantmain:jarvisdesktopvoiceassistantmain
     build:
       context: .
       dockerfile: ./Dockerfile
